@@ -1,0 +1,22 @@
+.visit{
+    min-height: 543px;
+    background-color: #333333;
+    padding-top: 92px;
+    &__descr{
+        max-width: 842px;
+        margin: 44px auto 0 auto;
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__btn{
+        margin: 30px auto 0 auto;
+        width: 193px;
+        height: 47px;
+        background-color: #FFFFFF;
+        color:#333333;
+    }
+}

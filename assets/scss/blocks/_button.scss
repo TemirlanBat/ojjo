@@ -11,4 +11,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+    &:active, &:focus{
+        outline: none;
+    }
 }

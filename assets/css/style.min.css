@@ -457,6 +457,10 @@ template {
   color: #FFFFFF;
 }
 
+.button:active, .button:focus {
+  outline: none;
+}
+
 .title {
   text-align: center;
   color: #333333;
@@ -615,6 +619,71 @@ template {
   to {
     opacity: 1;
   }
+}
+
+.visit {
+  min-height: 543px;
+  background-color: #333333;
+  padding-top: 92px;
+}
+
+.visit__descr {
+  max-width: 842px;
+  margin: 44px auto 0 auto;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.visit__btn {
+  margin: 30px auto 0 auto;
+  width: 193px;
+  height: 47px;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.recommend {
+  min-height: 900px;
+  padding-top: 113px;
+  background-color: #E5E5E5;
+}
+
+.recommend__wrapper {
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recommend__item {
+  position: relative;
+}
+
+.recommend__descr {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.recommend__btn {
+  margin: 20px auto 0 auto;
+  width: 229px;
 }
 
 * {

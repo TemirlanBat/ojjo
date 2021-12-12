@@ -187,6 +187,37 @@
             </div>
         </div>
     </section>
+    <div class="visit">
+        <div class="container">
+            <div class="title title_fz21 title_wht">Не знаете, что выбрать?</div>
+            <h2 class="title title_fz30 title_wht">Посетите наши салоны в Москве</h2>
+            <div class="visit__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget facilisis nulla accumsan quam non diam metus. Maecenas nullam id massa massa odio. Aliquam venenatis, pulvinar aliquet eu etiam fermentum ac enim. Aliquet sit ut vel curabitur amet in enim arcu 
+            </div>
+            <button class="button visit__btn">Наши салоны</button>
+        </div>
+    </div>
+    <div class="recommend">
+        <div class="container">
+            <div class="title title_fz21">Полезные статьи</div>
+            <h2 class="title title_fz30">Лучшие советы по подбору дорогих подарков</h2>
+            <div class="recommend__wrapper">
+                <div class="recommend__item">
+                    <img src="<?php echo bloginfo("template_url") . '/assets/img/icons/recommendations/1.png' ?>" alt="1" class="recommend__img">
+                    <div class="recommend__descr">Как выбрать <br> часы для своей <br> будующей жены</div>
+                </div>
+                <div class="recommend__item">
+                    <img src="<?php echo bloginfo("template_url") . '/assets/img/icons/recommendations/2.png' ?>" alt="2" class="recommend__img">
+                    <div class="recommend__descr">Запонки для мужа: <br> 7 ключевых правил <br> покупки аксессуара</div>
+                </div>
+                <div class="recommend__item">
+                    <img src="<?php echo bloginfo("template_url") . '/assets/img/icons/recommendations/3.png' ?>" alt="3" class="recommend__img">
+                    <div class="recommend__descr">Как выбрать <br> обручальные кольца <br> молодоженам</div>
+                </div>
+            </div>
+            <button class="button recommend__btn">Читать наш блог</button>
+        </div>
+    </div>
 <?php
     get_footer();
 ?>
