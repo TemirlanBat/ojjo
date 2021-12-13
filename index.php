@@ -218,6 +218,20 @@
             <button class="button recommend__btn">Читать наш блог</button>
         </div>
     </div>
+    <div class="socials">
+        <div class="container">
+            <div class="title title_fz21">#ojjo_jewerly</div>
+            <h2 class="title title_fz30">Мы в социальных сетях</h2>
+            <div class="socials__wrapper">
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/1.png' ?>" alt="1" class="socials__img"></div>
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/2.png' ?>" alt="2" class="socials__img"></div>
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/3.png' ?>" alt="3" class="socials__img"></div>
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/4.png' ?>" alt="4" class="socials__img"></div>
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/5.png' ?>" alt="5" class="socials__img"></div>
+                <div class="socials__item"><img src="<?php echo bloginfo('template_url') . '/assets/img/icons/socials/6.png' ?>" alt="6" class="socials__img"></div>
+            </div>
+        </div>
+    </div>
 <?php
     get_footer();
 ?>
