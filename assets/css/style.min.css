@@ -758,6 +758,124 @@ template {
   grid-row: 2/3;
 }
 
+.mailing {
+  min-height: 464px;
+  background-color: #333333;
+  padding: 100px 0 120px 0;
+}
+
+.mailing__wrapper {
+  margin: 60px auto 0 auto;
+  width: 670px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 247px 367px;
+      grid-template-columns: 247px 367px;
+  -webkit-column-gap: 55px;
+          column-gap: 55px;
+}
+
+.mailing__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mailing__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailing__icon {
+  width: 25px;
+  height: 25px;
+  padding-right: 11px;
+}
+
+.mailing__title {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.mailing__right {
+  border: 1px solid #FFFFFF;
+  opacity: 0.6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailing-form {
+  background-color: #FFFFFF;
+  width: 317px;
+  height: 60px;
+  padding-top: 14px;
+}
+
+.mailing-form__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailing-form__input {
+  display: block;
+  width: 146px;
+  height: 36px;
+  padding-left: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #B6B6B6;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mailing-form__btn {
+  width: 130px;
+  height: 36px;
+  background-color: #333333;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 * {
   font-family: 'Noto Serif', serif;
   font-family: 'Roboto', sans-serif;

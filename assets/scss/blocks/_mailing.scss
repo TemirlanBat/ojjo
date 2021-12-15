@@ -1,0 +1,78 @@
+.mailing{
+    min-height: 464px;
+    background-color: #333333;
+    padding: 100px 0 120px 0;
+    &__wrapper{
+        margin: 60px auto 0 auto;
+        width: 670px;
+        display: grid;
+        grid-template-columns: 247px 367px;
+        column-gap: 55px;
+    }
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__item{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    &__icon{
+        width: 25px;
+        height: 25px;
+        padding-right: 11px;
+    }
+    &__title{
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    &__right{
+        border: 1px solid #FFFFFF;
+        opacity: 0.6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-form{
+        background-color: #FFFFFF;
+        width: 317px;
+        height: 60px;
+        padding-top: 14px;
+        &__item{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            column-gap: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+        &__input{
+            display: block;
+            width: 146px;
+            height: 36px;
+            padding-left: 10px;
+            background-color: #FFFFFF;
+            border: 1px solid #B6B6B6;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        &__btn{
+            width: 130px;
+            height: 36px;
+            background-color: #333333;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
