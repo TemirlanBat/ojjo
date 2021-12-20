@@ -18,7 +18,9 @@
                         <li class="menu__item"><a href="#" class="menu__link">Вакансии</a></li>
                     </ul>
                 </nav>
-                <img src="<?php echo bloginfo('template_url') . '/assets/img/icons/logo.png' ?>" alt="logo" class="header__logo">
+                <div class="header__logo">
+                    <?php the_custom_logo(); ?>
+                </div>
                 <div class="header__wrapper">
                     <div class="header__item">
                         <a href="#"><img src="<?php echo bloginfo("template_url") . "/assets/img/icons/header/search.png" ?>" alt="search" class="header__img"></a>
